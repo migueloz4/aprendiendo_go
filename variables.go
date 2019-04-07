@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+
 func main () {
 
 	// se puede declarar variables indicando VAR y el tipo
@@ -22,5 +23,12 @@ func main () {
 
 	edad, ciudad := 23, "Avellaneda"
 	fmt.Println(edad, ciudad)
+
+	//otra forma de declarar variables 
+	var (
+		lugar="avellaneda"
+		x, y = 1, 2 
+	)
+	fmt.Println(lugar, x, y )
 
 }
