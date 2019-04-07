@@ -10,7 +10,6 @@ func main () {
 	numero=3
 	fmt.Println(numero)
 
-
 	// usando := no hace falta que aclare el TIPO de variable, una vez que se declaran asi, no se le puede cambiar el valor mas adelante
 
 	numero2:=9
@@ -20,5 +19,8 @@ func main () {
 	fmt.Println(nombre)
 
 	// declarar variables en una misma linea
+
+	edad, ciudad := 23, "Avellaneda"
+	fmt.Println(edad, ciudad)
 
 }
